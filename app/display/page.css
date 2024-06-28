@@ -1,0 +1,145 @@
+.main img {
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.cc-heading {
+    margin-left: 4vw;
+    margin-top: 3vw;
+    display: flex;
+    align-items: first baseline;
+    gap: 2vw;
+}
+
+.cc-cgpa {
+    font-size: 7.7vw;
+    font-weight: 700;
+    color:#E1C16E;
+    text-shadow: 0px 0px 5px #00000055;
+}
+
+.cc-calc {
+    font-size: 3.3vw;
+    font-weight: 700;
+    color:#E1C16E;
+    text-shadow: 0px 0px 5px #00000044;
+
+}
+
+.cc-ham-burg {
+    position: fixed;
+    right: 4.5vw;
+    top: 1.5vw;
+    font-size: 3.3vw;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px #00000044;
+}
+
+.cc-main-ops-outer{
+    display: flex;
+    justify-content: center;
+}
+
+.cc-main-ops {
+    width: 50vw;
+    height: 30vw;
+    background-color: #ffffff69;
+    box-shadow: 0px 0px 10px #00000033;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+}
+
+.cc-mo-top{
+    font-size: 2.2vw;
+    text-align: center;
+    font-weight: 700;
+    color:#000000b8;
+    text-transform: uppercase;
+}
+
+.cc-mo-mid{
+    font-size: 5vw;
+    font-weight:900;
+    color:#000000d8;
+
+}
+
+.cc-mo-ta{
+    width: 40vw;
+    height: 3.3vw;
+    border: none;
+    box-shadow: 0px 0px 5px #00000088;
+    background-color: #00000055;
+    font-size: 1.5vw;
+    border-radius: 3vw;
+    padding: 0 1vw;
+    color: #ffffff;
+    font-size: 1vw;
+}
+.cc-mo-ta input::-webkit-scrollbar{
+    width: 0;
+}
+.cc-mo-ta:focus{
+    outline: none;
+    border: 2px solid #ffffff;
+}
+
+.cc-mo-btn{
+    height: 3vw;
+    border: none;
+    box-shadow: 0px 0px 5px #00000069;
+    color: #000000b8;
+    font-size: 1.2vw;
+    font-weight: 700;
+    border-radius: 3vw;
+    padding: 0 1.5vw;
+    background-color: #ffffff88;
+}
+
+.cc-main-hamops{
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+    text-align: center;
+    gap: 1.5vw;
+    font-size: 1.5vw;
+    color: #000000d5;
+    background-color: #ffffff4b;
+    position: fixed;
+    top: 0vw;
+    right: 0;
+    border-radius: 1vw 0 0 1vw;
+    display: none;
+    box-shadow: 0 0 100vw 200vw #000000a6;
+    transition: all 1s ease-in-out;
+}
+
+.cc-mh-close{
+    position: fixed;
+    right: 2.5vw;
+    top: 1.5vw;
+    font-size: 2.2vw;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px #00000044;
+}

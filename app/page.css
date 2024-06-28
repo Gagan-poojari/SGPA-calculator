@@ -1,0 +1,241 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.main img {
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.cc-heading {
+    margin-left: 4vw;
+    margin-top: 3vw;
+    display: flex;
+    align-items: first baseline;
+    gap: 2vw;
+}
+
+.cc-cgpa {
+    font-size: 7.7vw;
+    font-weight: 700;
+    color: #E1C16E;
+    text-shadow: 0px 0px 5px #00000055;
+}
+
+.cc-calc {
+    font-size: 3.3vw;
+    font-weight: 700;
+    color: #E1C16E;
+    text-shadow: 0px 0px 5px #00000044;
+
+}
+
+.cc-ham-burg {
+    font-size: 3.3vw;
+    position: fixed;
+    right: 4.5vw;
+    top: 1.5vw;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px #00000044;
+}
+
+.cc-main-ops-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.cc-main-ops {
+    width: 50vw;
+    height: 30vw;
+    background-color: #ffffff69;
+    box-shadow: 0px 0px 10px #00000033;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.cc-mo-top {
+    font-size: 2.2vw;
+    text-align: center;
+    font-weight: 700;
+    color: #000000b8;
+    text-transform: uppercase;
+}
+
+.cc-mo-ta {
+    width: 40vw;
+    height: 3.3vw;
+    border: none;
+    box-shadow: 0px 0px 5px #00000088;
+    background-color: #00000055;
+    font-size: 1.5vw;
+    border-radius: 3vw;
+    padding: 0 1vw;
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+
+.cc-mo-ta:focus {
+    outline: none;
+    border: 2px solid #ffffff;
+}
+
+.cc-mo-ta::placeholder{
+    color:#00000069;
+}
+
+.cc-mo-btn {
+    height: 3vw;
+    font-size: 1.2vw;
+    padding: 0 1.5vw;
+    background-color: #ffffff88;
+    border: none;
+    box-shadow: 0px 0px 5px #00000069;
+    color: #000000b8;
+    font-weight: 700;
+    border-radius: 3vw;
+}
+
+.cc-main-hamops {
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+    text-align: center;
+    gap: 1.5vw;
+    font-size: 1.5vw;
+    color: #000000d5;
+    background-color: #ffffff4b;
+    position: fixed;
+    top: 0vw;
+    right: 0;
+    border-radius: 1vw 0 0 1vw;
+    display: none;
+    box-shadow: 0 0 100vw 200vw #000000a6;
+    transition: all 3s ease;
+    
+} 
+
+.cc-mh-close {
+    position: fixed;
+    right: 2.5vw;
+    top: 1.5vw;
+    font-size: 2.2vw;
+    font-weight: 700;
+}
+
+@media (max-width: 1500px) {
+    body {
+        background-color: #000000;
+        background-color: #0000000e;
+    }
+
+    .main img {
+        display: none;
+    }
+
+    .cc-cgpa {
+        font-size: 8.8vw;
+        color: #00a2ff;
+        color: #000000;
+    }
+
+    .cc-calc {
+        font-size: 4.4vw;
+        color: #00a2ff;
+        color: #000000;
+
+    }
+
+    .cc-ham-burg {
+        font-size: 6.6vw;
+        color: #00a2ff;
+        color: #000000;
+
+        right: 5vw;
+        top: 6vw;
+    }
+
+    .cc-main-ops {
+        margin-top: 20vw;
+        width: 77vw;
+        height: 55vw;
+        gap: 5vw;
+        background-color: #ffffff00;
+        box-shadow: 0 0 5px 2px #0000001a;
+        /* border:1px solid #00000069; */
+        border-radius: 2px;
+
+    }
+
+    .cc-mo-top {
+        font-size: 3.5vw;
+    }
+
+    .cc-mo-ta {
+        width: 66vw;
+        height: 6.66vw;
+        background-color: #ffffff00;
+        color: #000000;
+        font-size: 2.5vw;
+        padding-left: 2vw;
+        box-shadow: none;
+        border: 1px solid #00000069;
+        border-radius: 2px;
+    }
+
+    .cc-mo-ta:focus {
+        background-color: #ffffff;
+        
+    }
+
+    .cc-mo-btn {
+        height: 6.66vw;
+        font-size: 2.5vw;
+        padding: 0 15vw;
+        background-color: #000000;
+        box-shadow: none;
+        color: #ffffff;
+        border-radius: 2px;
+        font-weight: 500;
+    }
+    .cc-main-hamops{
+        width:50vw;
+        background-color: #ffffff;
+        gap:3vw;
+        padding-top: 10vw;
+    }
+    .cc-mh-close{
+        font-size: 4vw;
+        top: 5vw;
+        right: 5vw;
+    }
+    .cc-mh-lnks{
+        font-size: 3vw;
+        color:#000000;
+    }
+}
